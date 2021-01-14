@@ -2,7 +2,9 @@
 
 January 2021
 
-A functional raytracer exploring the maths behind the pixels implemented in OpenGl.
+A functional raytracer exploring the maths behind the pixels with the help of the online version of the book: Raytracing in a Weekend.
+<br />
+Implemented in OpenGl.
 
 Implemented:
 <br />
@@ -12,4 +14,6 @@ Primitive shape: sphere.<br />
 Shading and surface normals.<br />
 Diffuse Material.<br />
 Mirrored Light Reflection.<br />
-
+<br />
+<br />
+![alt text here](ray-tracing-in-one-weekend-example-scenes.jpg)
