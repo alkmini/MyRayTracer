@@ -5,11 +5,11 @@ January 2021
 A functional raytracer exploring the maths behind the pixels implemented in OpenGl.
 
 Implemented:
-<\b>
-Vector class.
-Raycasting.
-Primitive shape: sphere.
-Shading and surface normals.
-Diffuse Material.
-Mirrored Light Reflection.
+<br />
+Vector class.<br />
+Raycasting.<br />
+Primitive shape: sphere.<br />
+Shading and surface normals.<br />
+Diffuse Material.<br />
+Mirrored Light Reflection.<br />
 
