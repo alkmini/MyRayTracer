@@ -16,4 +16,4 @@ Diffuse Material.<br />
 Mirrored Light Reflection.<br />
 <br />
 <br />
-![alt text here](ray-tracing-in-one-weekend-example-scenes.jpg)
+![alt text here](images/ray-tracing-in-one-weekend-example-scenes.jpg)
