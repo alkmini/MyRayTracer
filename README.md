@@ -5,6 +5,7 @@ January 2021
 A functional raytracer exploring the maths behind the pixels implemented in OpenGl.
 
 Implemented:
+<\b>
 Vector class.
 Raycasting.
 Primitive shape: sphere.
