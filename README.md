@@ -16,4 +16,6 @@ Diffuse Material.<br />
 Mirrored Light Reflection.<br />
 <br />
 <br />
+An example of my learning achievements:
+<img src = "images/turtle2.jpg" width = 200>
 ![alt text here](images/ray-tracing-in-one-weekend-example-scenes.jpg)
