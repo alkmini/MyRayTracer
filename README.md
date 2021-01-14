@@ -18,4 +18,3 @@ Mirrored Light Reflection.<br />
 <br />
 An example of my learning achievements:
 ![alt text here](images/ray-tracing-in-one-weekend-example-scenes.jpg)
-<img src = "images/ray-tracing-in-one-weekend-example-scenes.jpg" width = 200>
