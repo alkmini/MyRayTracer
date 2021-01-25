@@ -3,7 +3,6 @@
 #define GLEW_STATIC
 #include <GL/glew.h> //always glew before glfw
 #include <GLFW/glfw3.h>
-#include <SDL.h>
 #include <iostream>
 #include "Shader.h"
 
@@ -17,14 +16,11 @@ public:
 	Application();
 	~Application();
 	
-	GLuint initGl();
+	
 	void Init();
-	void initSDL(const char* title, int xpos, int ypos, int width, int height, bool fullscreen, bool useOpenGL);
-
-	void handleEvents();
-	void update();
-	void render();
-	void clean();
+	void ProcessInput(GLFWwindow* window);
+	void Update();
+	void Render();
 
 	bool Running(){return isRunning;}
 
@@ -36,8 +32,8 @@ public:
 
 private:
 	bool isRunning;
-	SDL_Window* window;
-	SDL_Renderer* renderer;
+	GLuint initGl();
+	GLFWwindow* window;
 	camera* cam;
 	Raytracer* raytracer;
 };

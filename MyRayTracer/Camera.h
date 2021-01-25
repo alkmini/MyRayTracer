@@ -9,12 +9,10 @@
 #endif
 #include <GL/gl.h>
 #include <GL/glu.h>
-#include <SDL.h>
 #undef main
 #include <string>
 #include <fstream>
 #include "utilities.h"
-#include "glm.hpp"
 #include "Ray.h"
 #include "vec3geometry.h"
 
@@ -69,39 +67,4 @@ private:
 	double lens_radius;
 };
 
-//data->geometry->vertex->rasterization->fragment
-// 
-// class camera
-// {
-// 	glm::vec3 loc;
-// 	float camPitch, camYaw;
-// 	float movevel;
-// 	float mousevel;
-// 	bool mi, ismoved;
-// 	void lockCamera();
-// 	void moveCamera(float dir);
-// 	void moveCameraUp(float dir);
-// public:
-// 	camera();
-// 	camera(glm::vec3 loc);
-// 	camera(glm::vec3 loc, float yaw, float pitch);
-// 	camera(glm::vec3 loc, float yaw, float pitch, float mv, float mov);
-// 	void Control();
-// 	void UpdateCamera();
-// 	glm::vec3 getVector();
-// 	glm::vec3 getLocation();
-// 	float getPitch();
-// 	float getYaw();
-// 	float getMovevel();
-// 	float getMousevel();
-// 	bool isMouseIn();
-// 
-// 	void setLocation(glm::vec3 vec);
-// 	void lookAt(float pitch, float yaw);
-// 	void mouseIn(bool b);
-// 	void setSpeed(float mv, float mov);
-// 
-// 	bool isMoved();
-// };
-// 
 #endif
